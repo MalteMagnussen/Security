@@ -1,3 +1,5 @@
 1. Limit login attempts on a certain username to X amount per Y time.
 2. (Captcha) Implement one of those "Im not a robot" checks after X amount of failed attempts.
 3. Limit attempts from an IP to X amounts per Y time.
+
+Example is in same week for Fullstack JS (The X amount of loads from Y IP)
