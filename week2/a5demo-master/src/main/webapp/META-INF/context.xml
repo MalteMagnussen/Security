@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context path="/a2demo">
+<Context path="/a5demo">
     <!-- Add the User and Password to your local a5demo database -->         
     <Realm className="org.apache.catalina.realm.JDBCRealm"
            driverName="com.mysql.jdbc.Driver"
-           connectionURL="jdbc:mysql://localhost:3306/a5demo?user=dev&amp;password=ax2"
+           connectionURL="jdbc:mysql://localhost:3307/a5demo?user=dev&amp;password=ax2"
            userTable="users" 
            userNameCol="user_email" 
            userCredCol="user_pass"
