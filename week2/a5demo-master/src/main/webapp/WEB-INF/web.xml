@@ -4,6 +4,9 @@
         <session-timeout>
             30
         </session-timeout>
+        <cookie-config>
+            <name>MY_JSESSIONID_CUSTOM_NAME_WOOOOOO</name>
+        </cookie-config>
     </session-config>
     <security-constraint>
         <display-name>Constraint1</display-name>
