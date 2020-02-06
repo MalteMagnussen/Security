@@ -1,0 +1,10 @@
+Security 
+1) Locate the problem in how Access Control is implemented, and use this knowledge to “steal” other users private info.
+
+Steps to reproduce "hack":
+
+1. Log in as a@b.dk
+2. Now you can access the data api endpoint and get other users data
+	- Example: http://dat-security.dk/a5demo/api/data/b@b.dk
+3. ????
+4. Profit
