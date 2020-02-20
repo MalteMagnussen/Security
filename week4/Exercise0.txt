@@ -1,0 +1,9 @@
+Borger
+	cpr
+	partiId
+	
+
+
+Parti
+	id
+	name
