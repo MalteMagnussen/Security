@@ -19,17 +19,21 @@ public class Exercise2 {
     public static void main(String[] args) {
 
         for (int i = 1000; i < 10000; i++) {
-            int k = i; // which k yields the right result
-            String key = "passwordabcd" + k; // has to be 128 bit/16 bytes
-            boolean found = false;
-            String dec = decrypt(CIFER, key);
-            if (dec.contains("everything")) {
-                System.out.println("String Decrypted Successfully.");
-                System.out.println("Decrypted: " + dec);
-                found = true;
-            }
-            if (found) {
-                break;
+            try {
+                int k = i; // which k yields the right result
+                String key = "passwordabcd" + k; // has to be 128 bit/16 bytes
+                boolean found = false;
+                String dec = decrypt(CIFER, key);
+                if (dec.contains("everything")) {
+                    System.out.println("String Decrypted Successfully.");
+                    System.out.println("Decrypted: " + dec);
+                    found = true;
+                }
+                if (found) {
+                    break;
+                }
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
             }
         }
     }
