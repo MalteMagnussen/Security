@@ -24,6 +24,13 @@ public class Exercise1 {
 
     private static String rot(String in, int offset) {
         final int N = 'Z' - 'A' + 1; // also known as 26...
+        /*
+        With this expression you are treating chars as ints, using character's Unicode value instead of the character itself.
+        'Z' - 'A' + 1
+        Will become
+        90 - 65 + 1 (=26)
+        */
+        System.out.println(N);
         StringBuilder builder = new StringBuilder();
         for (char c : in.toCharArray()) {
             if ('A' <= c && c <= 'Z') {
