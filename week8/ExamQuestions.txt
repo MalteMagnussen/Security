@@ -1,0 +1,33 @@
+Explain about use cases and the pros & cons of the following authentication/Login-strategies
+
+•	Java’s declarative authentication and authorization features
+	o	Pros 
+		-	Input Pros here
+	o	Cons
+		-	Input Cons here
+	o	Use Cases
+		-	Input Use Cases here
+
+•	Basic HTTP-authentication
+	o	Pros
+		-	Input Pros here
+	o	Cons
+		-	Input Cons here
+	o	Use Cases
+		-	Input Use Cases here
+
+•	Form-based authentication
+	o	Pros
+		-	Input Pros here
+	o	Cons
+		-	Input Cons here
+	o	Use Cases
+		-	Input Use Cases here
+
+•	Token Based Authentication
+	o	Pros
+		-	Input Pros here
+	o	Cons
+		-	Input Cons here
+	o	Use Cases
+		-	Input Use Cases here
