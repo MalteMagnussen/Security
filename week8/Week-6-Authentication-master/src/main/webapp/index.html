@@ -5,11 +5,23 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
     <body>
+        
         <h1>Hello World!</h1>
+        
         <p>
-            <a href="./admin.html">Click me for Admin Page</a>
+            <a href="./admin/admin.html">Click me for Admin Page</a>
             <br/><br/>
-            <a href="./user.html">Click me for User Page</a>
+            <a href="./user/user.html">Click me for User Page</a>
         </p>
+        
+        <br/><br/>
+        
+        <h2>Login Form</h2>
+        
+        <form method="POST" action="j_security_check">
+            <input type="text" name="j_username">
+            <input type="password" name="j_password">
+        </form>
+    
     </body>
 </html>
