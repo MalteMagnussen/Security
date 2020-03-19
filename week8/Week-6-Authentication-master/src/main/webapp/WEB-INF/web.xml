@@ -13,7 +13,7 @@
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>admin</web-resource-name>
-            <url-pattern>/authenticationEx5/admin/*</url-pattern>
+            <url-pattern>/admin/*</url-pattern>
         </web-resource-collection>
         <auth-constraint>
             <role-name>admin</role-name>
@@ -27,7 +27,7 @@
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>user</web-resource-name>
-            <url-pattern>/authenticationEx5/user/*</url-pattern>
+            <url-pattern>/user/*</url-pattern>
         </web-resource-collection>
         <auth-constraint>
             <role-name>user</role-name>

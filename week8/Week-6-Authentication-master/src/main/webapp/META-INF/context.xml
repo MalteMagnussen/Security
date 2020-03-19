@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context path="/authenticationEx5">
-    <Realm className="org.apache.catalina.realm.LockOutRealm" failureCount="2"
-    driverName="com.mysql.jdbc.Driver"
+    <Realm className="org.apache.catalina.realm.JDBCRealm"
+    driverName="com.mysql.cj.jdbc.Driver"
     connectionURL="jdbc:mysql://localhost:3306/security?user=root&amp;password=root" 
     userTable="users" 
     userNameCol="user_email" 
     userCredCol="user_pass"
     userRoleTable="user_roles" 
     roleNameCol="role_name"/>
+    
 </Context>
-
