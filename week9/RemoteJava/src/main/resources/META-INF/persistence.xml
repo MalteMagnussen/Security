@@ -4,7 +4,7 @@
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>Entities.Demo</class>
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://157.230.24.35:3306/example?useSSL=true&amp;verifyServerCertificate=false"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://157.230.24.35:3306/example?useSSL=true&amp;verifyServerCertificate=false&amp;serverTimezone=UTC"/>
       <property name="javax.persistence.jdbc.user" value="everywhere"/>
       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
       <property name="javax.persistence.jdbc.password" value="test"/>
