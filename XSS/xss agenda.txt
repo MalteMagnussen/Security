@@ -15,4 +15,15 @@ https://www.mywebsite.com/store/search?sneakers=Nike&size=<script>
 })()
 </script>
 
-Then I'd talk about 
+Then I'd talk about Stored XSS:
+If I wanted to make an example I'd follow this video:
+https://youtu.be/s5kXJrg5KPg
+https://github.com/securitydatspring2019/OWASP_A7/blob/master/README.md
+https://docs.google.com/document/d/1EHVnI0sh9UCHdUpszFTtG_oxtYlOpGImYUimI5CotYY/edit#
+
+Stored XSS is when a website stores and then later on shows your input to other users. Like a website like craigslist or ebay or dba
+So you could put script in your article and then other users, when loading your article, would also receive the script. That could then send session ID to a hacker, which could then use their account. 
+
+You prevent XSS via making sure script tags cant be entered as user input. do this on the backend, because someone can remove the checks in your code via inspect element in their browser, if you check on frontend. 
+https://github.com/MalteMagnussen/Security/blob/master/XSS/sanitazion-startcode-master/sanitazion-startcode-master/src/main/java/servlets/Sanitizer.java#L35
+
