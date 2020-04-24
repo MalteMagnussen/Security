@@ -29,3 +29,4 @@ So you could put script in your article and then other users, when loading your 
 You prevent XSS via making sure script tags cant be entered as user input. do this on the backend, because someone can remove the checks in your code via inspect element in their browser, if you check on frontend. 
 https://github.com/MalteMagnussen/Security/blob/master/XSS/sanitazion-startcode-master/sanitazion-startcode-master/src/main/java/servlets/Sanitizer.java#L35
 
+REACT XSS https://stackoverflow.com/questions/33644499/what-does-it-mean-when-they-say-react-is-xss-protected
