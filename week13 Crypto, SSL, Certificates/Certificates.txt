@@ -1,0 +1,3 @@
+The purpose of a certificate is to bind a Public key to a Name. 
+Bind a public key to a name. 
+
