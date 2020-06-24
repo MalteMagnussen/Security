@@ -1,0 +1,72 @@
+kali@kali:~$ sudo hping3 -S -V 192.168.1.59 -p 5551
+[sudo] password for kali: 
+using eth0, addr: 192.168.1.60, MTU: 1500
+HPING 192.168.1.59 (eth0 192.168.1.59): S set, 40 headers + 0 data bytes
+len=46 ip=192.168.1.59 ttl=128 DF id=16241 tos=0 iplen=44
+sport=5551 flags=SA seq=0 win=65392 rtt=7.5 ms
+seq=4059444151 ack=38484065 sum=6293 urp=0
+
+len=46 ip=192.168.1.59 ttl=128 DF id=16242 tos=0 iplen=44
+sport=5551 flags=SA seq=1 win=65392 rtt=1.2 ms
+seq=973865642 ack=119900911 sum=f124 urp=0
+
+len=46 ip=192.168.1.59 ttl=128 DF id=16243 tos=0 iplen=44
+sport=5551 flags=SA seq=2 win=65392 rtt=0.6 ms
+seq=3134924318 ack=1802114217 sum=ad92 urp=0
+
+len=46 ip=192.168.1.59 ttl=128 DF id=16244 tos=0 iplen=44
+sport=5551 flags=SA seq=3 win=65392 rtt=3.0 ms
+seq=2971227288 ack=204850418 sum=e01c urp=0
+
+len=46 ip=192.168.1.59 ttl=128 DF id=16245 tos=0 iplen=44
+sport=5551 flags=SA seq=4 win=65392 rtt=6.0 ms
+seq=4002644446 ack=56131468 sum=6200 urp=0
+
+len=46 ip=192.168.1.59 ttl=128 DF id=16246 tos=0 iplen=44
+sport=5551 flags=SA seq=5 win=65392 rtt=3.3 ms
+seq=1348220580 ack=1920150666 sum=b9cd urp=0
+
+len=46 ip=192.168.1.59 ttl=128 DF id=16247 tos=0 iplen=44
+sport=5551 flags=SA seq=6 win=65392 rtt=2.9 ms
+seq=4123785569 ack=1564476299 sum=bda3 urp=0
+
+len=46 ip=192.168.1.59 ttl=128 DF id=16248 tos=0 iplen=44
+sport=5551 flags=SA seq=7 win=65392 rtt=13.8 ms
+seq=2964517476 ack=229029757 sum=7a8b urp=0
+
+len=46 ip=192.168.1.59 ttl=128 DF id=16249 tos=0 iplen=44
+sport=5551 flags=SA seq=8 win=65392 rtt=7.8 ms
+seq=3623063356 ack=1154515442 sum=c1c5 urp=0
+
+len=46 ip=192.168.1.59 ttl=128 DF id=16250 tos=0 iplen=44
+sport=5551 flags=SA seq=9 win=65392 rtt=7.1 ms
+seq=1664355134 ack=979699095 sum=4545 urp=0
+
+len=46 ip=192.168.1.59 ttl=128 DF id=16251 tos=0 iplen=44
+sport=5551 flags=SA seq=10 win=65392 rtt=10.9 ms
+seq=3077391287 ack=1926367001 sum=a27e urp=0
+
+len=46 ip=192.168.1.59 ttl=128 DF id=16252 tos=0 iplen=44
+sport=5551 flags=SA seq=11 win=65392 rtt=21.6 ms
+seq=4152135042 ack=341488626 sum=65a6 urp=0
+
+len=46 ip=192.168.1.59 ttl=128 DF id=16253 tos=0 iplen=44
+sport=5551 flags=SA seq=12 win=65392 rtt=1.7 ms
+seq=4134881452 ack=2062043490 sum=43f0 urp=0
+
+len=46 ip=192.168.1.59 ttl=128 DF id=16254 tos=0 iplen=44
+sport=5551 flags=SA seq=13 win=65392 rtt=1.1 ms
+seq=745139897 ack=1458922100 sum=231f urp=0
+
+len=46 ip=192.168.1.59 ttl=128 DF id=16255 tos=0 iplen=44
+sport=5551 flags=SA seq=14 win=65392 rtt=5.1 ms
+seq=3609513962 ack=1882667264 sum=67a3 urp=0
+
+len=46 ip=192.168.1.59 ttl=128 DF id=16256 tos=0 iplen=44
+sport=5551 flags=SA seq=15 win=65392 rtt=4.8 ms
+seq=2707437138 ack=2018023875 sum=ef09 urp=0
+
+^C
+--- 192.168.1.59 hping statistic ---
+16 packets transmitted, 16 packets received, 0% packet loss
+round-trip min/avg/max = 0.6/6.2/21.6 ms

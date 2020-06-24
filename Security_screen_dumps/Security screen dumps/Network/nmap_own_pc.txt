@@ -1,0 +1,48 @@
+Scanning own pc to find open port 5551 
+****************************************
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-06-22 07:28 EDT
+NSE: Loaded 151 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 07:28
+Completed NSE at 07:28, 0.00s elapsed
+Initiating NSE at 07:28
+Completed NSE at 07:28, 0.00s elapsed
+Initiating NSE at 07:28
+Completed NSE at 07:28, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 07:28
+Completed Parallel DNS resolution of 1 host. at 07:28, 0.00s elapsed
+Initiating Connect Scan at 07:28
+Scanning DESKTOP-DSIKC8U (192.168.1.59) [5553 ports]
+Discovered open port 3306/tcp on 192.168.1.59
+Discovered open port 5551/tcp on 192.168.1.59
+Completed Connect Scan at 07:29, 17.82s elapsed (5553 total ports)
+Initiating Service scan at 07:29
+Scanning 2 services on DESKTOP-DSIKC8U (192.168.1.59)
+Completed Service scan at 07:29, 11.01s elapsed (2 services on 1 host)
+NSE: Script scanning 192.168.1.59.
+Initiating NSE at 07:29
+Completed NSE at 07:29, 0.03s elapsed
+Initiating NSE at 07:29
+Completed NSE at 07:29, 0.00s elapsed
+Initiating NSE at 07:29
+Completed NSE at 07:29, 0.00s elapsed
+Nmap scan report for DESKTOP-DSIKC8U (192.168.1.59)
+Host is up (0.0017s latency).
+Not shown: 5551 filtered ports
+PORT     STATE SERVICE VERSION
+3306/tcp open  mysql   MySQL (unauthorized)
+5551/tcp open  http    Node.js Express framework
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Error
+
+NSE: Script Post-scanning.
+Initiating NSE at 07:29
+Completed NSE at 07:29, 0.00s elapsed
+Initiating NSE at 07:29
+Completed NSE at 07:29, 0.00s elapsed
+Initiating NSE at 07:29
+Completed NSE at 07:29, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 29.32 seconds
